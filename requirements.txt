@@ -2,4 +2,5 @@ streamlit
 transformers
 tensorflow
 nltk
+torch
 tf-keras
