@@ -6,6 +6,9 @@ import datetime
 from transformers import pipeline
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
+import os
+os.environ["STREAMLIT_WATCHER_TYPE"] = "none"
+
 
 st.set_page_config(page_title="🩺 HealthCare Assistant Chatbot", page_icon="🏥", layout="wide")
     
